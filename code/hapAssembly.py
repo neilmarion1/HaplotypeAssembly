@@ -116,7 +116,6 @@ def greedy(readMatrix):
 
     # sort the readMatrix for the first occuring SNP?
     inOrder = sortByPos(readMatrix)
-    # inOrder = readMatrix # unsorted
 
     # assign first read to hap1 to start
     # find longest hap
@@ -183,7 +182,7 @@ def genBitStrings(n): # all 2^N binary string combinations
         left = genHelper(n-1, bitStr + "0")
         right = genHelper(n-1, bitStr + "1")
         
-        return str(left + " " + right)
+        return str(left + " " + right) # returned as string with spaces, n = 2 -> "00 01 10 11"
     
     return genHelper(n, "")
     
@@ -279,6 +278,7 @@ def main():
     numSNPS = 10
     readLen = 15
 
+    # example problem, run above tests to write csv data to file
     print "Read Matrix"
     readMatrix = genHaps(numSNPS, readLen)
     testPrint(readMatrix)
