@@ -5,4 +5,4 @@ Since these sequeneces can come from either haplotype, the reads must be process
 The greedy algorithm sorts all the reads by the first occuring SNP and tries to match overlapping reads to determine which haplotype the reads originated from.
 This is much faster than the baseline method which runs in exponential time as it compares all possible haplotypes to the reads.
 
-Check out the [attached pdf](presentation/Haplotype Assembly_Marion Neil.pdf) for a more in-depth explanation.
+Check out the [attached pdf](presentation/Haplotype Assembly_Neil Marion.pdf) for a more in-depth explanation.
