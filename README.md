@@ -1,4 +1,4 @@
-# HaplotypeAssembly
+# Haplotype Assembly
 This projets simulates the procedure to reassemble complementary haplotypes from read sequences.
 Since these sequeneces can come from either haplotype, the reads must be processed to determine which haplotype they belong to.
 
